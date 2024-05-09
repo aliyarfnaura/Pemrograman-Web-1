@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title> Form </title>
+    </head>
+    <body>
+        <center>
+            <table border="1" width="450" height="500">
+                <tr bgcolor="skyblue" height="70">
+                    <td style="color: red; font-family: Arial; font-size: 12px" align="center" valign="center"> <h1> Pendaftaran Kursus </h1> </td>
+                </tr>
+                <tr bgcolor="grey">
+                    <td>
+                        <table>
+                            <tr>
+                                <b style="font-family: Arial; font-size: 20px"> Data Diri </b>
+                                <style>
+                                    td {
+                                        line-height: 1.5;
+                                    }
+                                </style>
+                                
+                                <td>
+                                    
+                                    <br>
+                                    Nama <br>
+                                    Nim <br> 
+                                    E-mail <br> 
+                                    Tanggal Lahir <br>
+                                    Jenis Kelamin <br> <br>
+                                    Pilih Program Kursus <br> <br> <br> <br>
+                                    Pilih Hari / Jam Kursus
+                                </td>
+                                
+                                <td>
+                                    
+                                    
+                                    <br> <input type="text" name="nama"> <br>
+                                    <input type="text" name="nim"> <br>
+                                    <input type="email" name="email"> <br>
+                                    <input type="date" name="ttl"> <br>
+                                    <input type="radio" name="jk" value="lk"> Laki - laki <br>
+                                    <input type="radio" name="jk" value="pr"> Perempuan <br>
+                                    <input type="checkbox" name="ks" value="c"> C# <br>
+                                    <input type="checkbox" name="ks" value="java"> Java <br>
+                                    <input type="checkbox" name="ks" value="sql"> SQL <br>
+                                    <input type="checkbox" name="ks" value="html"> HTML dan PHP <br>
+                                    <select name="jam">
+                                        <option value="9"> Senin - Rabu/09.00 - 11.00 </option>
+                                        <option value="10"> Kamis - Jum'at/10.00 - 11.00 </option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr bgcolor="coral">
+                    <td>
+                        Komentar Anda <br>
+                        <textarea name="komentar" cols="35" rows="3"></textarea> <br>
+                        <input type="reset" name="ulangi" value="Reset">
+                        <input type="submit" name="kirim" value="Submit">
+                        <input type="button" name="batal" value="Cancel">
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
